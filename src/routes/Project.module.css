@@ -1,0 +1,84 @@
+.repo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b3566;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 500px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+}
+
+.project p {
+    color: #9da5d1;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.repo_info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.repo_links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #644aff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: .5s;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.back a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #644aff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: .5s;
+    width: 200px;
+    text-align: center;
+}
+
+.back a:hover {
+    opacity: 1;
+}

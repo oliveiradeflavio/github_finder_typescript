@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 // pages
 import Home from "./routes/Home"
+import Project from "./routes/Project"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/repos/:login" element={<Project />} />
         </Routes>
       </BrowserRouter>
 
